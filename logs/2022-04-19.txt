@@ -1,0 +1,36 @@
+[19-Apr-2022 10:28:52 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 E:\laragon\laragon\www\myownframeworklogin\public\index.php(44): Core\Router->dispatch('signup/success')
+#1 E:\laragon\laragon\www\myownframeworklogin\index.php(14): require_once('E:\\laragon\\lara...')
+#2 {main}
+-> Thrown in 'E:\laragon\laragon\www\myownframeworklogin\Core\Router.php' in line 139
+[19-Apr-2022 10:29:57 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 E:\laragon\laragon\www\myownframeworklogin\public\index.php(44): Core\Router->dispatch('signup/success')
+#1 E:\laragon\laragon\www\myownframeworklogin\index.php(14): require_once('E:\\laragon\\lara...')
+#2 {main}
+-> Thrown in 'E:\laragon\laragon\www\myownframeworklogin\Core\Router.php' in line 139
+[19-Apr-2022 10:29:57 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 E:\laragon\laragon\www\myownframeworklogin\public\index.php(44): Core\Router->dispatch('signup/success')
+#1 E:\laragon\laragon\www\myownframeworklogin\index.php(14): require_once('E:\\laragon\\lara...')
+#2 {main}
+-> Thrown in 'E:\laragon\laragon\www\myownframeworklogin\Core\Router.php' in line 139
+[19-Apr-2022 10:30:00 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 E:\laragon\laragon\www\myownframeworklogin\public\index.php(44): Core\Router->dispatch('signup/success')
+#1 E:\laragon\laragon\www\myownframeworklogin\index.php(14): require_once('E:\\laragon\\lara...')
+#2 {main}
+-> Thrown in 'E:\laragon\laragon\www\myownframeworklogin\Core\Router.php' in line 139
+[19-Apr-2022 10:30:18 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 E:\laragon\laragon\www\myownframeworklogin\public\index.php(44): Core\Router->dispatch('signup/success')
+#1 E:\laragon\laragon\www\myownframeworklogin\index.php(14): require_once('E:\\laragon\\lara...')
+#2 {main}
+-> Thrown in 'E:\laragon\laragon\www\myownframeworklogin\Core\Router.php' in line 139
+[19-Apr-2022 10:30:18 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 E:\laragon\laragon\www\myownframeworklogin\public\index.php(44): Core\Router->dispatch('signup/success')
+#1 E:\laragon\laragon\www\myownframeworklogin\index.php(14): require_once('E:\\laragon\\lara...')
+#2 {main}
+-> Thrown in 'E:\laragon\laragon\www\myownframeworklogin\Core\Router.php' in line 139

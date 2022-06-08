@@ -1,0 +1,36 @@
+[02-Jun-2022 18:00:49 UTC] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(50): Core\Router->dispatch('citas/')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[02-Jun-2022 18:00:49 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/404.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[02-Jun-2022 18:00:59 UTC] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(50): Core\Router->dispatch('citas')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[02-Jun-2022 18:00:59 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/404.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[02-Jun-2022 18:03:34 UTC] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(53): Core\Router->dispatch('citas/nepe123')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[02-Jun-2022 18:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/404.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30

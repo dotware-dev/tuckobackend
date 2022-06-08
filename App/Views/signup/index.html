@@ -1,0 +1,36 @@
+{%extends "base.html"%}
+{%block title%}Signup
+{%endblock%}
+{%block extras%}
+{%endblock%}
+{%block body%}
+    <h1>Signup</h1>
+    {% if user.errors is not empty %}
+        <p>ERRORS</p>
+        <ul>
+            {%for error in user.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        
+    {% endif %}
+    <form action="{{url_basis}}signup/create" method="post" id="formSignup">
+        <div>
+            <label for="name">name</label>
+            <input type="text" name="name" id="Name" autofocus placeholder="name" value="{{ user.name }}" required>
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" autofocus placeholder="email" value="{{ user.email}}" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" autofocus placeholder="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Minimum 6 chars, at least one letter and number">
+        </div>
+        <div>
+            <label for="password-confirm">password confirmation</label>
+            <input type="password" name="password_confirm" id="password-confirm" autofocus placeholder="confirm password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Minimum 6 chars, at least one letter and number">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+{%endblock%}

@@ -1,0 +1,28 @@
+{%extends "base.html"%}
+{%block title%}Login
+{%endblock%}
+{%block extras%}
+{%endblock%}
+{%block body%}
+    <h1>Login</h1>
+    {% if user.errors is not empty %}
+        <p>ERRORS</p>
+        <ul>
+            {%for error in user.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        
+    {% endif %}
+    <form action="{{url_basis}}login/create" method="post" id="formLogin">
+        <div>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" autofocus placeholder="email" value="{{ user.email}}" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" autofocus placeholder="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" title="Minimum 6 chars, at least one letter and number">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+{%endblock%}
