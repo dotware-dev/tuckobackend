@@ -1,0 +1,249 @@
+[08-Jun-2022 03:33:37 UTC] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[08-Jun-2022 03:33:37 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/404.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[08-Jun-2022 03:33:38 UTC] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[08-Jun-2022 03:33:38 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/404.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[08-Jun-2022 03:33:40 UTC] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[08-Jun-2022 03:33:40 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/404.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[08-Jun-2022 03:34:10 UTC] Uncaught exception: 'ErrorException'
+-> Message: 'file_get_contents(C:\laragon\www\apituko/App/Views/home/index): Failed to open stream: No such file or directory'
+-> Stack trace:#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:\\laragon\\www\\...')
+#3 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('home/index')
+#4 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index')
+#5 [internal function]: App\Controllers\Home->indexAction(Array)
+#6 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#7 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#8 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#9 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#10 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Template.php' in line 53
+[08-Jun-2022 03:34:10 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/500.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[08-Jun-2022 03:39:38 UTC] Uncaught exception: 'ErrorException'
+-> Message: 'file_get_contents(C:/laragon/www/apituko/App/Views/home/index): Failed to open stream: No such file or directory'
+-> Stack trace:#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:/laragon/www/...')
+#2 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#3 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('home/index')
+#4 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index')
+#5 [internal function]: App\Controllers\Home->indexAction(Array)
+#6 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#7 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#8 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#9 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#10 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Template.php' in line 53
+[08-Jun-2022 03:39:38 UTC] PHP Fatal error:  Uncaught Error: Class "Twig\Loader\FilesystemLoader" not found in C:\laragon\www\apituko\Core\View.php:30
+Stack trace:
+#0 C:\laragon\www\apituko\Core\Error.php(36): Core\View::renderTemplate('errors/500.html')
+#1 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#2 {main}
+  thrown in C:\laragon\www\apituko\Core\View.php on line 30
+[08-Jun-2022 03:41:58 UTC] Uncaught exception: 'ErrorException'
+-> Message: 'file_get_contents(C:/laragon/www/apituko/App/Views/home/index): Failed to open stream: No such file or directory'
+-> Stack trace:#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:/laragon/www/...')
+#2 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#3 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('home/index')
+#4 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index')
+#5 [internal function]: App\Controllers\Home->indexAction(Array)
+#6 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#7 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#8 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#9 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#10 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Template.php' in line 53
+[08-Jun-2022 03:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:42:20 UTC] Uncaught exception: 'ErrorException'
+-> Message: 'file_get_contents(C:\laragon\www\apituko/App/Views/&quot;base.html&quot;): Failed to open stream: No such file or directory'
+-> Stack trace:#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\apituko\Core\Template.php(56): Core\Template::includeFiles('C:\\laragon\\www\\...')
+#3 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#4 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('home/index.html')
+#5 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html')
+#6 [internal function]: App\Controllers\Home->indexAction(Array)
+#7 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#8 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#9 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#10 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#11 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Template.php' in line 53
+[08-Jun-2022 03:42:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:44:50 UTC] Uncaught exception: 'Error'
+-> Message: 'Undefined constant "uid"'
+-> Stack trace:#0 C:\laragon\www\apituko\Core\Template.php(17): require()
+#1 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html')
+#2 [internal function]: App\Controllers\Home->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\Storage\Framework\Cache\home_index.php' in line 16
+[08-Jun-2022 03:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Error))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:45:14 UTC] Uncaught exception: 'Error'
+-> Message: 'Undefined constant "uid"'
+-> Stack trace:#0 C:\laragon\www\apituko\Core\Template.php(17): require()
+#1 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html')
+#2 [internal function]: App\Controllers\Home->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\Storage\Framework\Cache\home_index.php' in line 16
+[08-Jun-2022 03:45:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Error))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:45:16 UTC] Uncaught exception: 'Error'
+-> Message: 'Undefined constant "uid"'
+-> Stack trace:#0 C:\laragon\www\apituko\Core\Template.php(17): require()
+#1 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html')
+#2 [internal function]: App\Controllers\Home->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\Storage\Framework\Cache\home_index.php' in line 16
+[08-Jun-2022 03:45:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Error))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:47:38 UTC] Uncaught exception: 'Error'
+-> Message: 'Undefined constant "uid"'
+-> Stack trace:#0 C:\laragon\www\apituko\Core\Template.php(17): require()
+#1 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html')
+#2 [internal function]: App\Controllers\Home->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\Storage\Framework\Cache\home_index.php' in line 16
+[08-Jun-2022 03:47:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Error))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:48:28 UTC] Uncaught exception: 'Error'
+-> Message: 'Undefined constant "url_basis"'
+-> Stack trace:#0 C:\laragon\www\apituko\Core\Template.php(17): require()
+#1 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html')
+#2 [internal function]: App\Controllers\Home->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\Storage\Framework\Cache\home_index.php' in line 17
+[08-Jun-2022 03:48:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Error))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:50:11 UTC] Uncaught exception: 'ErrorException'
+-> Message: 'file_get_contents(C:/laragon/www/apituko/App/Views/home/index): Failed to open stream: No such file or directory'
+-> Stack trace:#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:/laragon/www/...')
+#2 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#3 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('home/index')
+#4 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index')
+#5 [internal function]: App\Controllers\Home->indexAction(Array)
+#6 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#7 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#8 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#9 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#10 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Template.php' in line 53
+[08-Jun-2022 03:50:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:50:19 UTC] Uncaught exception: 'ErrorException'
+-> Message: 'file_get_contents(C:/laragon/www/apituko/App/Views/home/index): Failed to open stream: No such file or directory'
+-> Stack trace:#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:/laragon/www/...')
+#2 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#3 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('home/index')
+#4 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index')
+#5 [internal function]: App\Controllers\Home->indexAction(Array)
+#6 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#7 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#8 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#9 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#10 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Template.php' in line 53
+[08-Jun-2022 03:50:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 03:51:36 UTC] Uncaught exception: 'Error'
+-> Message: 'Undefined constant "url_basis"'
+-> Stack trace:#0 C:\laragon\www\apituko\Core\Template.php(17): require()
+#1 C:\laragon\www\apituko\App\Controllers\Home.php(13): Core\Template::view('home/index.html', Array)
+#2 [internal function]: App\Controllers\Home->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\Storage\Framework\Cache\home_index.php' in line 17
+[08-Jun-2022 03:51:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Error))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36

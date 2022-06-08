@@ -30,7 +30,7 @@ $router=new Core\Router();
 //add the routes
 
 
-// $router->add('', "public", ['controller' => 'Home', 'action' => 'index'], );
+$router->add('', "public", ['controller' => 'Home', 'action' => 'index'], );
 // $url=$_SERVER['QUERY_STRING'];
 // echo ($router->match($url))?var_dump($router->getParams()):"ERROR 404";
 

@@ -10,6 +10,6 @@
     {
         public function indexAction()
         {
-            Template::view('home/index');
+            Template::view('home/index.html',['title'=>'Home']);
         }
     }

@@ -24,7 +24,7 @@ class Template
         }
         $cached_file = self::$cache_path . str_replace(array('/', '.html'), array('_', ''), $file . '.php');
         if (!self::$cache_enabled || !file_exists($cached_file) || filemtime($cached_file) < filemtime(dirname(__DIR__).'/App/Views/'.$file)) {
-            $code = self::includeFiles(dirname(__DIR__).'/App/Views/'.$file);
+            $code = self::includeFiles(str_replace("\\","/",dirname(__DIR__)).'/App/Views/'.$file);
             $code = self::compileCode($code);
             file_put_contents($cached_file, '<?php class_exists(\'' . __CLASS__ . '\') or exit; ?>' . PHP_EOL . $code);
         }
