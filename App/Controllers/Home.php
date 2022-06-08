@@ -2,6 +2,7 @@
     namespace App\Controllers;
 
     use \Core\View;
+    use \Core\Template;
 
     // use App\Models\Post;
 
@@ -9,6 +10,6 @@
     {
         public function indexAction()
         {
-            
+            Template::view('home/index');
         }
     }

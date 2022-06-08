@@ -12,7 +12,8 @@ class Template
     public static function view($file, $data = array())
     {
         $cached_file = self::cache($file);
-        extract($data, EXTR_SKIP);
+
+        extract(array_merge(array('url_basis'=>self::urlBasis()),$data), EXTR_SKIP);
         require $cached_file;
     }
 
@@ -98,4 +99,15 @@ class Template
         $code = preg_replace('/{% ?yield ?(.*?) ?%}/i', '', $code);
         return $code;
     }
+    public static function urlBasis()
+    {
+        $protocol=null;
+        if (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
+            $protocol = 'https://';
+        } else {
+            $protocol = 'http://';
+        }
+        return $protocol . $_SERVER['HTTP_HOST'] . '/';
+    }
+
 }
