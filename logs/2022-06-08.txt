@@ -247,3 +247,254 @@ Stack trace:
 #0 [internal function]: Core\Error::exceptionHandler(Object(Error))
 #1 {main}
   thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:30:23 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Array to string conversion'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:30:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:31:07 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:31:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:33:17 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:33:17 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:33:29 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:33:29 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:33:33 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:33:33 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:33:59 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:33:59 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:34:21 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:34:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:34:22 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:34:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:34:23 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:34:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:34:23 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:34:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:34:24 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(15): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 15)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 15
+[08-Jun-2022 00:34:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:35:04 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(17): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 17)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 17
+[08-Jun-2022 00:35:04 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:36:33 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(17): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 17)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 17
+[08-Jun-2022 00:36:33 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:37:20 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(17): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 17)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 17
+[08-Jun-2022 00:37:20 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined method Core\View::renderTemplate() in C:\laragon\www\apituko\Core\Error.php:36
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 36
+[08-Jun-2022 00:39:09 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(16): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 16)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 16
+[08-Jun-2022 00:39:09 America/Mexico_City] PHP Fatal error:  Uncaught ErrorException: file_get_contents(C:\laragon\www\apituko/App/Views/&quot;base.html&quot;): Failed to open stream: No such file or directory in C:\laragon\www\apituko\Core\Template.php:53
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\apituko\Core\Template.php(56): Core\Template::includeFiles('C:\\laragon\\www\\...')
+#3 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#4 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('errors/500.html')
+#5 C:\laragon\www\apituko\Core\Error.php(37): Core\Template::view('errors/500.html')
+#6 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#7 {main}
+  thrown in C:\laragon\www\apituko\Core\Template.php on line 53
+[08-Jun-2022 00:39:28 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(16): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 16)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 16
+[08-Jun-2022 00:40:42 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(16): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 16)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 16

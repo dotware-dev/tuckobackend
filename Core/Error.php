@@ -2,6 +2,7 @@
     namespace Core;
 
     use Core\View;
+    use Core\Template;
 
     class Error
     {
@@ -33,7 +34,7 @@
                 $message.="\n-> Stack trace:".$exception->getTraceAsString();
                 $message.="\n-> Thrown in '".$exception->getFile()."' in line ".$exception->getLine();
                 error_log($message); // Error/Exception file logging engine.
-                View::renderTemplate("errors/$code.html");
+                Template::view("errors/$code.html");
             }
         }
     }
