@@ -1,0 +1,178 @@
+[10-Jun-2022 01:06:25 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:06:25 America/Mexico_City] PHP Fatal error:  Uncaught ErrorException: file_get_contents(C:\laragon\www\apituko/App/Views/&quot;base.html&quot;): Failed to open stream: No such file or directory in C:\laragon\www\apituko\Core\Template.php:53
+Stack trace:
+#0 [internal function]: Core\Error::errorHandler(2, 'file_get_conten...', 'C:\\laragon\\www\\...', 53)
+#1 C:\laragon\www\apituko\Core\Template.php(53): file_get_contents('C:\\laragon\\www\\...')
+#2 C:\laragon\www\apituko\Core\Template.php(56): Core\Template::includeFiles('C:\\laragon\\www\\...')
+#3 C:\laragon\www\apituko\Core\Template.php(27): Core\Template::includeFiles('C:/laragon/www/...')
+#4 C:\laragon\www\apituko\Core\Template.php(14): Core\Template::cache('errors/404.html')
+#5 C:\laragon\www\apituko\Core\Error.php(37): Core\Template::view('errors/404.html')
+#6 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in C:\laragon\www\apituko\Core\Template.php on line 53
+[10-Jun-2022 01:10:26 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:11:28 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:11:31 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:11:32 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:11:32 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:11:33 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:22:48 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(14): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 14)
+#1 [internal function]: App\Controllers\Login->indexAction(Arra y)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 14
+[10-Jun-2022 01:22:48 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Core\Template" not found in C:\laragon\www\apituko\Core\Error.php:37
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 37
+[10-Jun-2022 01:22:49 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(14): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 14)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 14
+[10-Jun-2022 01:22:49 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Core\Template" not found in C:\laragon\www\apituko\Core\Error.php:37
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(ErrorException))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 37
+[10-Jun-2022 01:22:59 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:22:59 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Core\Template" not found in C:\laragon\www\apituko\Core\Error.php:37
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 37
+[10-Jun-2022 01:23:22 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:23:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Core\Template" not found in C:\laragon\www\apituko\Core\Error.php:37
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 37
+[10-Jun-2022 01:23:29 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:23:29 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Core\Template" not found in C:\laragon\www\apituko\Core\Error.php:37
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 37
+[10-Jun-2022 01:23:37 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:23:37 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Core\Template" not found in C:\laragon\www\apituko\Core\Error.php:37
+Stack trace:
+#0 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#1 {main}
+  thrown in C:\laragon\www\apituko\Core\Error.php on line 37
+[10-Jun-2022 01:24:28 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:24:28 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:28:10 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('xd')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:28:55 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('home')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 01:29:13 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('home')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[10-Jun-2022 13:10:33 America/Mexico_City] Uncaught exception: 'Error'
+-> Message: 'Class "Core\TokenManager" not found'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Signup.php(13): App\Models\User->__construct(Array)
+#1 [internal function]: App\Controllers\Signup->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('signup')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\User.php' in line 20
+[10-Jun-2022 13:40:10 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined variable $$2y$10$TjMKo8/wnaHJGf1mDp/.8OgkPrDhLDxi3eKfpTHPjf2ucNwov8Khq'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Models\User.php(31): Core\Error::errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 31)
+#1 C:\laragon\www\apituko\App\Controllers\Signup.php(17): App\Models\User->saveNewUser()
+#2 [internal function]: App\Controllers\Signup->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(62): Core\Router->dispatch('signup')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\User.php' in line 31

@@ -1,0 +1,55 @@
+[11-Jun-2022 03:43:53 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined property: App\Models\Comments::$description'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Models\Comments.php(33): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\apituko\App\Controllers\Comments.php(19): App\Models\Comments->saveNewComment()
+#2 [internal function]: App\Controllers\Comments->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('comments')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\Comments.php' in line 33
+[11-Jun-2022 03:46:26 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined property: App\Models\Comments::$description'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Models\Comments.php(33): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\apituko\App\Controllers\Comments.php(19): App\Models\Comments->saveNewComment()
+#2 [internal function]: App\Controllers\Comments->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('comments')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\Comments.php' in line 33
+[11-Jun-2022 03:47:39 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined property: App\Models\Comments::$comments'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Models\Comments.php(33): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\apituko\App\Controllers\Comments.php(19): App\Models\Comments->saveNewComment()
+#2 [internal function]: App\Controllers\Comments->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('comments')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\Comments.php' in line 33
+[11-Jun-2022 03:47:56 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined property: App\Models\Comments::$comments'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Models\Comments.php(33): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\apituko\App\Controllers\Comments.php(19): App\Models\Comments->saveNewComment()
+#2 [internal function]: App\Controllers\Comments->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('comments')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\Comments.php' in line 33
+[11-Jun-2022 03:48:22 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined property: App\Models\Comments::$comments'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Models\Comments.php(33): Core\Error::errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\apituko\App\Controllers\Comments.php(19): App\Models\Comments->saveNewComment()
+#2 [internal function]: App\Controllers\Comments->indexAction(Array)
+#3 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#4 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#5 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('comments')
+#6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#7 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Models\Comments.php' in line 33

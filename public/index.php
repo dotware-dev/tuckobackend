@@ -48,6 +48,12 @@ $router->add('login/{action}', "public", ['controller' => 'Login']);
 $router->add('citas', "public", ['controller' => 'Citas']);
 $router->add('citas/{action}', "public", ['controller' => 'Citas']);
 
+$router->add('user', "public", ['controller' => 'User']);
+$router->add('user/{action}', "public", ['controller' => 'User']);
+
+$router->add('comments', "public", ['controller' => 'Comments']);
+$router->add('comments/{action}', "public", ['controller' => 'Comments']);
+
 // $router->add('{controller}/{action}');
 // $router->add('{controller}/{action}');
 // $router->add('{controller}');

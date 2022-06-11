@@ -12,7 +12,7 @@ class Config
      * database name
      * @var string
      */
-    const DB_NAME = 'vhypy';
+    const DB_NAME = 'tukoapp';
     /**
      * database user
      * @var string
@@ -32,5 +32,5 @@ class Config
      *Generate cache files
      * @var boolean
      */
-    const CACHE = false;
+    const CACHE = true;
 }

@@ -19,6 +19,9 @@
         <a href="<?php echo $url_basis ?>login">Login</a>
     </nav>
     
+    <h1>ERROR 404</h1>
+    <p>File not found</p>
+
 </body>
 </html>
 

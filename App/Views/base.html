@@ -9,8 +9,7 @@
     <!--Scripts, styles, etc. required in all the pages-->
     
     <!--Block for specific scripts, styles, etc.-->
-    {%block extras %}
-    {%endblock%}
+    {% yield extras %}
 </head>
 <body>
     <nav>
@@ -18,7 +17,6 @@
         <a href="{{$url_basis}}">Home</a> | 
         <a href="{{$url_basis}}login">Login</a>
     </nav>
-    {%block body%}
-    {%endblock%}
+    {% yield body %}
 </body>
 </html>

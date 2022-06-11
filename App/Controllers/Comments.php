@@ -2,19 +2,22 @@
 
 namespace App\Controllers;
 
-
-use App\Models\User;
+use App\Models\Comments as ModelsComments;
 use Exception;
 
-class Signup extends \Core\Controller
+class Comments extends \Core\Controller
 {
     public function indexAction()
     {
         $name= $_GET["name"];
         $email= $_GET["email"];
-        $password= $_GET["password"];
-        $user = new User(array('name' => $name, 'email' => $email, 'password' => $password));
-        $saved=$user->saveNewUser();
+        $token= $_GET["token"];
+        $comment= $_GET["comment"];
+
+        
+
+        $comment = new ModelsComments(['name' => $name, 'email' => $email, 'token' => $token, 'comment' => $comment]);
+        $saved=$comment->saveNewComment();
         if ($saved==true) {
             http_response_code(200);
             echo json_encode(["status" => "success"]);

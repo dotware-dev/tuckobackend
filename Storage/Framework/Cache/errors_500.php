@@ -19,6 +19,9 @@
         <a href="<?php echo $url_basis ?>login">Login</a>
     </nav>
     
+    <h1>ERROR 500</h1>
+    <p>Internal server error</p>
+
 </body>
 </html>
 
