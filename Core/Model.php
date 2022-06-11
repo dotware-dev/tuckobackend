@@ -2,7 +2,7 @@
     namespace Core;
 
 use PDO;
-use Core\Config;
+include_once dirname(__DIR__)."/config.php";
 
 abstract class Model
 {
