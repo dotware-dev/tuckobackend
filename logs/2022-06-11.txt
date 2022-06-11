@@ -53,3 +53,19 @@
 #6 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
 #7 {main}
 -> Thrown in 'C:\laragon\www\apituko\App\Models\Comments.php' in line 33
+[11-Jun-2022 09:15:59 America/Mexico_City] Uncaught exception: 'Exception'
+-> Message: 'No route matched.'
+-> Stack trace:#0 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('home')
+#1 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#2 {main}
+-> Thrown in 'C:\laragon\www\apituko\Core\Router.php' in line 143
+[11-Jun-2022 09:16:00 America/Mexico_City] Uncaught exception: 'ErrorException'
+-> Message: 'Undefined array key "email"'
+-> Stack trace:#0 C:\laragon\www\apituko\App\Controllers\Login.php(12): Core\Error::errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 12)
+#1 [internal function]: App\Controllers\Login->indexAction(Array)
+#2 C:\laragon\www\apituko\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\laragon\www\apituko\Core\Router.php(132): Core\Controller->__call('index', Array)
+#4 C:\laragon\www\apituko\public\index.php(68): Core\Router->dispatch('login')
+#5 C:\laragon\www\apituko\index.php(14): require_once('C:\\laragon\\www\\...')
+#6 {main}
+-> Thrown in 'C:\laragon\www\apituko\App\Controllers\Login.php' in line 12
