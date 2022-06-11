@@ -3,6 +3,7 @@
 
     use Core\View;
     use Core\Template;
+    use Core\Config;
 
     class Error
     {
@@ -20,7 +21,7 @@
                 $code=500;
             }
             http_response_code($code);
-            if (\Config\Config::SHOW_ERRORS) {
+            if (Config::SHOW_ERRORS) {
                 echo "<h1>Fatal error</h1>";
                 echo "<p>Uncaught exception: '".get_class($exception)."'</p>";
                 echo "<p>Message: '".$exception->getMessage()."'</p>";
